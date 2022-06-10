@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=PT+Serif&display=swap');
+
+body {
+ font-family: PT sans, sans-serif;
+ font-size: 15px;
+ max-width: 1300px;
+ margin: 0 auto;
+
+}
+.navigation {
+    padding: 0 20px;
+}
+
+.navigation p {
+    display: inline-block;
+    font-size: 22px; 
+    width: 755px;
+}
+.navigation p span {
+    color: #50b9e1;
+}
+nav {
+    display: inline-block;
+}
+
+li {
+    display: inline-block;
+}
+
+li:not(:last-child){
+    padding-right: 10px;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body > header > section.navigation > nav > ul > li:nth-child(6) > ul{
+  padding-left: 20px;
+}
+
+ nav i {
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 3px;
+}
+
+body > header > section.navigation > nav > ul{
+    padding-left: 2px;
+}
+
+a:hover {
+    color: #50b9e1;
+    cursor: pointer
+
+}
+
+/* here below we will continue with the section class ="site-header" */
+
+.site-header{
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5)), url('kids_main.jpg'), no-repeat;
+    background-size: cover;
+}
+
+.site-header h2 {
+    font-size: 66px;
+    color: white;
+    width: 43%;
+    margin: 0;
+    padding: 200px 0px 55px 110px;
+}
+
+.site-header button {
+   font-size:  26px;
+   background: transparent;
+   border: 2px solid white;
+   color: white;
+   padding: 10px 15px;
+   margin: 0px 0px 100px 110px;
+}
+.site-header button:hover {
+    background: #50b9e1;
+    color: white;
+    border: 2px solid #50b9e1; 
+    cursor: pointer;
+}
+
+/* welcome section of main */ 
+.welcomeKids{
+    color: #5a7c8a;
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+ .welcomeKids h2 {
+     text-align: center;
+     font-family: "PT serif", serif;
+     font-size:  32px;
+     font-style: italic;
+     letter-spacing: 2px;
+ }
+
+ .welcomeKids p{
+     text-align: center;
+ }
+
+ /* section class="offerings" */
+
+.offerings {
+    background: #50b9e1;
+    font-family: 'PT Serif', serif;
+    color:  white;
+    padding: 20px 30px;
+}
+
+
+ .offerings img {
+    width: 60px;
+ }
+
+ .offerings h2 {
+    text-align: center;
+    font-family: "PT serif", serif;
+    font-size:  32px;
+    font-style: italic;
+    letter-spacing: 2px;
+}
+
+.offerings li {
+    width: 26%;
+    text-align: center;
+    padding: 20px 30px;
+}
+
+.offerings a {
+    color: white;
+}
+
+/* UpcomingCAMPS */ 
+
+.UpcomingCAMPS{
+    color: #5a7c8a;
+    padding: 20px 0;
+}
+
+.UpcomingCAMPS h2{
+    text-align: center;
+    text-align: center;
+    font-family: "PT serif", serif;
+    font-size:  32px;
+    font-style: italic;
+    letter-spacing: 2px;
+}
+
+body > main > section.UpcomingCAMPS > p {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.UpcomingCAMPS img{
+    width: 400px;
+    height: 250px
+}
+
+.UpcomingCAMPS li {
+    width: 400px;
+    display: inline-block;
+}
+
+
+
+
+.UpcomingCAMPS li:not(:last-child){
+    padding-right: 45px;
+}
+
+.info div{
+    display: inline-block;
+}
+.info div p {
+    margin: 0;
+    padding: 0;
+}
+
+.info div h3 {
+    margin: 0;
+    padding: 0;
+}
+
+
+.info div:nth-child(1){
+    width: 340px;
+}
+
+.info div:nth-child(2){
+    background: #50b9e1;
+    padding: 10px;
+    color: white;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+body > main > section.UpcomingCAMPS > ul{
+    padding-left: 0px;
+}
+.info {
+    border-bottom: 2px solid #5a7c8a;
+}
+
+.more-info button{
+    font-size: 18px;
+    background:  transparent;
+    color: #43bae3;
+    border: 3px solid  #43bae3;
+    padding: 5px 10px;
+   
+}
+
+.more-info button:hover{
+    background: #43bae3;
+    color: white;
+    border:#43bae3;
+    cursor: pointer;
+}
+
+/* footer */ 
+
+footer{
+    background: #43bae3;
+    color: #5a7c8a;
+    padding: 0px 40px;
+}
+footer p {
+    display: inline-block;
+    padding-left: 110px;
+}
+
+footer ul {
+    display: inline-block;
+    padding-left: 730px;
+}
+
+footer ul a {
+    color: #5a7c8a;
+}
+
+footer ul a i{
+    border: 1px solid #5a7c8a;;
+    border-radius: 50%;
+    padding: 5px;  
+}
+
+
+
+
+
+
+
+
