@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=PT+Serif&display=swap');
+body{
+    font-family: Open Sans, sans-serif;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+ 
+}
+
+
+body{
+    background-color: rgb(214,116,114);
+}
+
+
+/* navigation bar */
+header nav ul li {
+    display: inline-block;
+    text-decoration: none;  
+    font-weight: bold;
+}
+
+header nav ul li a {
+    text-decoration: none;
+}
+header nav{
+    text-align: center;
+    background-color: #FFFFFF;
+    height: 51px;
+    max-width: 100%;
+}
+header nav ul li a {
+    color: #D67472;
+}
+
+header nav ul li {
+    color: #D67472;
+    font-weight: bold;
+    
+}
+
+
+body > header > nav> ul> li {
+    display: inline-block;
+    width: max-content;
+}
+
+header nav ul {
+    padding-top: 15px;
+    width: max-content;
+    padding-left: 35%;
+}
+header nav ul{
+    margin-top: 0px;
+}
+
+header nav ul li:not(:first-child){
+padding-left: 20px;
+}
+
+/* header the perferct touch */
+.perfectTouch{
+ display: inline-block;
+ max-width: max-content;
+
+}
+.perfectTouch{
+    display: inline-block;
+    max-width: 100%;
+    width: max-content; 
+    background-image: linear-gradient(to right top, #9da1a3, #8b8f91, #7a7d7f, #696c6e, #595b5d);
+}
+.perfectTouch img{
+    max-width: 100%;
+    opacity: 0.3;
+    display: inline-block;
+    width: 1520px;
+    height: 465px;
+    object-fit: cover;
+    object-position: center;
+  
+}
+.perfectTouch{
+    position: relative;
+}
+
+header h1 {
+    position: absolute;
+    bottom: 63%;
+    left: 36%;
+    color: white;
+    font-family: sans-serif;
+    max-width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+    
+}
+header hr{
+    position: absolute;
+    bottom: 62%;
+    left: 45%;
+    background-color: #E27371;
+    width: 60px;
+    height: 3px;
+    border-style: none;
+    max-width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+
+header p {
+    display: inline-block;
+    position: absolute;
+    bottom: 50%;
+    left: 33%;
+    width: 30%;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    max-width: 100%;
+    /* object-fit: cover;
+    object-position: center; */
+    height: max-content;
+    max-height: 100%;
+
+}
+
+.FlowersPreferences{
+    background-color: #D67472;
+}
+
+.FlowersPreferences h1{
+    text-align: center;
+    display: inline-block;
+    margin-left: 37%;
+    color: white;
+    font-size: 22px;
+    font-family: sans-serif;
+    max-width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.FlowersPreferences hr{
+    background-color: white;
+    width: 60px;
+    height: 3px;
+    border-style: none;
+    margin-left: 47%;
+    max-width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.FlowersPreferences p{
+    display: block;
+    color: white;
+    width: 48%;
+    margin-left: 27%;
+    text-align: center;
+    max-width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+}
+.FlowersPreferences button{
+    margin-left: 46%;
+    margin-top: 17px;
+    margin-bottom: 18px;
+    background: #F7FAFA;
+    border: none;
+    color: #D67472;
+    width: 111px;
+    height: 33px;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+    max-width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+  /* how it works Section */
+  .howItWorks{
+    background-color: #FFFFFF;
+  }
+
+
+
+  body > main > section.howItWorks > h1{
+    text-align: center;
+    padding-top: 19px;
+    max-width: 100%;
+    font-size: 18px;
+    font-family: Open Sans, sans-serif;
+    display: block;
+  }
+
+  body > main > section.howItWorks > hr{
+   
+    background-color: #E27371;
+    width: 60px;
+    height: 3px;    
+    border-style: none;
+    max-width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+    font-family:Open Sans, sans-serif; 
+  }
+
+  .detailInfo img{
+    width: 60px;
+    height: 60px;
+    max-width: 100%;
+    margin-left: 38%;
+  }
+  div.detailInfo{
+  display: inline-block;
+  width: 30%;
+  max-width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  }
+
+  div.detailInfo h2{
+    font-size: 15px;
+    font-family: Open Sans, sans-serif;
+    font-weight: normal;
+    max-width: 100%;
+    padding-left: 167px;
+  
+  }
+
+  div.detailInfo p{
+    display: inline-block;
+    text-align: center;
+    font-weight: normal;
+    font-size: 11px;
+    max-width: 100%;
+    width: 140px;
+    padding-left: 130px;
+  }
+
+  body > main > section.howItWorks > div:nth-child(3){
+    margin-left: 100px;
+  }   
+
+  body > main > section.howItWorks > div:nth-child(5) > h2{
+    padding-left: 173px;
+  }
+
+
+/* footer */
+
+footer{
+    text-align: center;
+    max-width: 100%;
+    color:  #FFFFFF;
+    padding: 5px;
+    font-family: Open Sans, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
