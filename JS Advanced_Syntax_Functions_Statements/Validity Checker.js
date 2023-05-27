@@ -54,6 +54,7 @@ function validityChecker ( param1, param2, param3, param4){
   // console.log(`${x1, y1} to ${x2, y2} is valid`);
 
 }
+
 validityChecker (3, 0, 0, 4 ); 
 
 
