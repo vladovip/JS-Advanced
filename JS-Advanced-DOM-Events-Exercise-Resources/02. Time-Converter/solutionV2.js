@@ -1,0 +1,4 @@
+function attachEventsListeners() {
+// TO DO    
+
+}
