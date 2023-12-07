@@ -1,0 +1,3 @@
+class SummerCamp {
+    // TO DO...
+}
